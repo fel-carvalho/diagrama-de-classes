@@ -45,3 +45,11 @@ Isso é demonstrado pela classe `MetodoPagamento`, que serve como base para dife
 
 Novos métodos de pagamento podem ser adicionados simplesmente criando novas classes que estendam `MetodoPagamento`.
 
+### LSP — Liskov Substitution Principle
+
+As subclasses de `MetodoPagamento` podem substituir a classe base sem alterar o comportamento esperado do sistema. Por exemplo:
+
+* `PagamentoPix` pode ser utilizado em qualquer lugar onde `MetodoPagamento` é esperado.
+* `PagamentoCartao` também pode ser utilizado da mesma forma.
+
+Isso garante que o sistema funcione corretamente independentemente do tipo específico de pagamento utilizado.
