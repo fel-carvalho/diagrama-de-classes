@@ -18,7 +18,7 @@ O sistema modela uma plataforma de delivery, como o iFood, onde clientes podem r
 
 ## Diagrama de Classes
 
-![Diagrama de Classes](diagrama-classes.png)
+
 
 ---
 
